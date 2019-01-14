@@ -1,0 +1,94 @@
+version: 1.0.1
+env: {name: prod, postfix: ''}
+token: {customer: bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vcWEtcHJvZC5hdXRoZW50aWNhdGlvbi51czEwLmhhbmEub25kZW1hbmQuY29tL3Rva2VuX2tleXMiLCJraWQiOiJrZXktaWQtMSIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZmI5YmIwMGIzNTM0M2UyYmRiMjAyOWY0ZTZiNDZmYyIsImFjciI6eyJ2YWx1ZXMiOlsidXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFjOmNsYXNzZXM6UGFzc3dvcmQiXX0sImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJ6ZG4iOiJxYS1wcm9kIn0sInhzLnVzZXIuYXR0cmlidXRlcyI6eyJhY2NvdW50SWQiOlsiMTY1N2JhZjItY2Q2MC00YjA4LWI1MzctNGY1NDIxYTM1MDZhIl19LCJhbXIiOlsiZXh0Il0sImdyYW50ZWRfc2NvcGVzIjpbImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9pbnRfdmlldyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9nZHByX2RlbCIsIm9wZW5pZCIsImNhYXMyLXhzdWFhIXQ0MDkuaHlicmlzLmNhYXMyX21vYmlsZV92aWV3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX3BheW1lbnRfcnciXSwiZ2l2ZW5fbmFtZSI6Im1pY2hhZWxfNzg0NUBob3RtYWlsLmNvbSIsImZhbWlseV9uYW1lIjoibWljaGFlbF83ODQ1QGhvdG1haWwuY29tIiwic3ViIjoiMWUxYzg4OTAtMTVmNS00YmI3LTk1YWMtMzVjYTU3NTdhZmI2Iiwic2NvcGUiOlsiY2FhczIteHN1YWEhdDQwOS55LmMyX2ludF92aWV3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2dkcHJfZGVsIiwib3BlbmlkIiwiY2FhczIteHN1YWEhdDQwOS5oeWJyaXMuY2FhczJfbW9iaWxlX3ZpZXciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfcGF5bWVudF9ydyJdLCJjbGllbnRfaWQiOiJzYi1jYWFzMi14c3VhYSF0NDA5IiwiY2lkIjoic2ItY2FhczIteHN1YWEhdDQwOSIsImF6cCI6InNiLWNhYXMyLXhzdWFhIXQ0MDkiLCJyZXZvY2FibGUiOnRydWUsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJ1c2VyX2lkIjoiMWUxYzg4OTAtMTVmNS00YmI3LTk1YWMtMzVjYTU3NTdhZmI2Iiwib3JpZ2luIjoiY2Fhc2lkcCIsInVzZXJfbmFtZSI6IjE2NTdiYWYyLWNkNjAtNGIwOC1iNTM3LTRmNTQyMWEzNTA2YSIsImVtYWlsIjoibWljaGFlbF83ODQ1QGhvdG1haWwuY29tIiwiYXV0aF90aW1lIjoxNTQ1NjMxMjA2LCJyZXZfc2lnIjoiOTdjZDgwMTYiLCJpYXQiOjE1NDc0NjA2NDgsImV4cCI6MTU0NzUwMzg0OCwiaXNzIjoiaHR0cDovL3FhLXByb2QubG9jYWxob3N0OjgwODAvdWFhL29hdXRoL3Rva2VuIiwiemlkIjoiZDQ4MmQxNTQtZTgzNC00YTkzLWI0NWUtMGQ1NTQzMWQxZWYwIiwiYXVkIjpbIm9wZW5pZCIsInNiLWNhYXMyLXhzdWFhIXQ0MDkiLCJjYWFzMi14c3VhYSF0NDA5LnkiLCJjYWFzMi14c3VhYSF0NDA5Lmh5YnJpcyJdfQ.xVE9BQjibQrAZpQGB57NiiYccrFXLIMwfQD5Q4t5e11bvGLeZECF3JS13ORbGwp-tquCidXJbr4neLsadN3l7Na_Cl_hxOrk8lCVDfiBpKzDMftwBQPDIOD9Z9NP0C2gCKLWccLvoTJdX3alDxU7pnj3LOW6SzBhJPSxAaXpX3OtvjsUDacS6pufxXiQXisnOY49DW_-NwHkc29PFCqCrZ6Qth_a0BcMkl_W6JC860fAjRIRiymT3QDY2ZNqoktfgzH7Rno6AdBVImyz8GknbnRxYiNjBlJ_sLEuSFtGDUt-jIm8Pw8oC2ui3zD3kOFJNPEIcYiI9YBmpqbujxpPdUBqJ2hpUt9nGMnGO47ri23AhFfsCjvFv0dkAPb-pqWRPrHIw02cX1FhoxwBDVfK6tcAiTccxZEJ_9rBInQsLONCZLVxDQFnl7hJSJ67nFYKAmD3qXyiuMk6GvILjXg0Jmmsrf7zl7mtnTz-vcp2gVE2GyuHTOfwzi4h86L8jFygGst__zzynm_IE4d5jANP35lUjvoRdxuqMyS1ZSaRqgnzdtcFwst2YRF1pZWudeT4GwOzhHEJ8vqdMetSDx7gBA6d7w59KGXDA4bX5bIyXqzwX5CedT2FbSCvNK8nvluSYtd9aNORNGgVJ-hGyYQlab-IvK-oeyfxtewy6csooPY,
+  merchant: bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vcWEtcHJvZC5hdXRoZW50aWNhdGlvbi51czEwLmhhbmEub25kZW1hbmQuY29tL3Rva2VuX2tleXMiLCJraWQiOiJrZXktaWQtMSIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI0NGRlMjljMmRmOGY0YmJkYjlkZTIxYzU0ZWRhZjAwOSIsImFjciI6eyJ2YWx1ZXMiOlsidXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFjOmNsYXNzZXM6UGFzc3dvcmQiXX0sImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJ6ZG4iOiJxYS1wcm9kIn0sInhzLnVzZXIuYXR0cmlidXRlcyI6eyJhY2NvdW50SWQiOlsiNDM5NmFiNzEtNDIyZC00NjY0LTgwOTItODQ0NTZkYTNjNDM1Il19LCJhbXIiOlsiZXh0Il0sImdyYW50ZWRfc2NvcGVzIjpbImNhYXMyLXhzdWFhIXQ0MDkueS5jMl93Yl9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9pbnRfdmlldyIsIm9wZW5pZCIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl8zcmRfc3lzX3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX3Byb2RfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfb3JkX3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2FwcF9ydyIsImNhYXMyLXhzdWFhIXQ0MDkuaHlicmlzLmNhYXMyX2lkcF93b3JrYmVuY2hfdmlldyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9pbnZfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfZW1haWxfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfaW1wb3J0X3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX3RheF9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl91bV9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9tbmciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfamJfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfcGF5bWVudF9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9jb250X3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2ludF9tbmciXSwiZ2l2ZW5fbmFtZSI6Ik1pY2hhZWwiLCJmYW1pbHlfbmFtZSI6Ill1Iiwic3ViIjoiYTE4OGQ1MGUtNjg1Ni00YmNlLWE3MWEtZjhlZWIwYTk5YmIwIiwic2NvcGUiOlsiY2FhczIteHN1YWEhdDQwOS55LmMyX3diX3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2ludF92aWV3Iiwib3BlbmlkIiwiY2FhczIteHN1YWEhdDQwOS55LmMyXzNyZF9zeXNfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfcHJvZF9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9vcmRfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfYXBwX3J3IiwiY2FhczIteHN1YWEhdDQwOS5oeWJyaXMuY2FhczJfaWRwX3dvcmtiZW5jaF92aWV3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2ludl9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9lbWFpbF9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9pbXBvcnRfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfdGF4X3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX3VtX3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX21uZyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9qYl9ydyIsImNhYXMyLXhzdWFhIXQ0MDkueS5jMl9wYXltZW50X3J3IiwiY2FhczIteHN1YWEhdDQwOS55LmMyX2NvbnRfcnciLCJjYWFzMi14c3VhYSF0NDA5LnkuYzJfaW50X21uZyJdLCJjbGllbnRfaWQiOiJzYi1jYWFzMi14c3VhYSF0NDA5IiwiY2lkIjoic2ItY2FhczIteHN1YWEhdDQwOSIsImF6cCI6InNiLWNhYXMyLXhzdWFhIXQ0MDkiLCJyZXZvY2FibGUiOnRydWUsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJ1c2VyX2lkIjoiYTE4OGQ1MGUtNjg1Ni00YmNlLWE3MWEtZjhlZWIwYTk5YmIwIiwib3JpZ2luIjoiY2Fhc2lkcCIsInVzZXJfbmFtZSI6IjQzOTZhYjcxLTQyMmQtNDY2NC04MDkyLTg0NDU2ZGEzYzQzNSIsImVtYWlsIjoibWljaGFlbC55dTAyQHNhcC5jb20iLCJhdXRoX3RpbWUiOjE1NDU2MzEyMDAsInJldl9zaWciOiIxYmRiMjQ3NSIsImlhdCI6MTU0NzQ2MDY0OSwiZXhwIjoxNTQ3NTAzODQ5LCJpc3MiOiJodHRwOi8vcWEtcHJvZC5sb2NhbGhvc3Q6ODA4MC91YWEvb2F1dGgvdG9rZW4iLCJ6aWQiOiJkNDgyZDE1NC1lODM0LTRhOTMtYjQ1ZS0wZDU1NDMxZDFlZjAiLCJhdWQiOlsib3BlbmlkIiwic2ItY2FhczIteHN1YWEhdDQwOSIsImNhYXMyLXhzdWFhIXQ0MDkueSIsImNhYXMyLXhzdWFhIXQ0MDkuaHlicmlzIl19.FX36Gd5xIJcYGu7WpAOfpz-2hRoLyiJR3IzHJHMQibgDoXoFpgQkhY9t3YGD5ySBjOFAv4s6c4vybbjaceeHR5K6IKxBSri-93VsE2ukO5LBx1y3j3nYG1Uu2Kx6FENKmdsPp35TU4OYb1pOgWVNPIeaMYnixInof46aITkVXgQdTbUGAFwVmy_HAh6dj-53mGaBBhD_XlqR4O_pZ9kTodhxjkT4TwqJzkm7DDvHibMmRDHKopaZl1Pl0rJAzDqVsQaQEceq8yCmYb2F0tTdcVc1ysktXlXKnbBkXcMba-1iqRr4ethirZ4YSFUE-66IHHcs0rL1LybXksZtreLNCnGasYRdfBA5dGFydbEV6i7cutr11kxEJwrlIO1reCtJLS4BXgCid8zo7MHZdIi-yGFCM9NHo5Q53R0BV7WJOI24dYuhSLX6dWH3UREEZW5K94G2HC4ok6VSzNcom7q8NE7Zns4bpiPMQeBM9KWSg__1L5N8wwaAoHa0SEVrXo6dgxpF8ObiIxyE7JQ-iT2-FF1uflrMUD_sGcFMm70egyD4ieCDyqIQtoaKX_xbN7BafzXliUYFaUlaFbwqU1ZwzIR2aLeNpF9zWI8v5HQX8eOM9n8ErY8xSwwK9JiRmRHZrPP2f_2npDYK1ZkuiybZvtYeOSqZRZsFoOeUu5oePjI}
+register:
+  customer: {email: null, password: null}
+  merchant: {email: null, password: null}
+session:
+- {id: '1234567890'}
+- {id: 1234567890B}
+audit_log: {client_id: sb-auditlog-api-approuter!b656|auditlog-api!b662, client_secret: h0NUWqFr1zaIzglevZycGTNheIo=,
+  space_id: 1fd52659-67cc-43bb-8193-7934f0f61e02, broker_id: 551aa941-e9e2-4123-8405-f78f5258d9a5,
+  export_id: e6239ac4-e48c-4690-8f30-874952ddeadd, shipping_id: 744d9187-c68d-40ec-905f-503ad71de241}
+resource:
+  candidate:
+    job_names: [demo_export_RunOnce, Payment settlement]
+    reasons:
+      cancel: ['1', '2', '3']
+      return: ['001', '002', '003']
+      mispick: ['001', '002']
+    locations: [boston-1, california-1, newjersey-1, demo-store1, demo-store2]
+    experience_names: [Upscale Mobile Native Shopping Experience]
+  products:
+    in_stock:
+    - {id: 46871-HicksGarden-0}
+    - {id: TB1592-GOLDBLACK-OS}
+    - {id: 50823-WARMROCCIA-10}
+    - {id: TB3374-TORYNAVYGREENNEWIVORY-OS}
+    - {id: 46656-NEWIVORY-0}
+    - {id: 46656-NEWIVORY-2}
+    - {id: 47187-SemiSweetPsychedelicGeo-10}
+    - {id: 47118-NEWIVORY-0}
+    out_stock:
+    - {id: 46656-NEWIVORY-0}
+    - {id: 46656-NEWIVORY-2}
+    - {id: 46656-NEWIVORY-4}
+  shipping:
+    methods:
+      ca: {defaultFlag: true, cost: 20.00, name: Method-CA, id: 795e555b-e16e-477f-8f76-13e2ae41c328}
+      or: {defaultFlag: true, cost: 5.00, name: UPS, id: 58af08be-f0b2-4f2d-84a5-c0b5f7832453}
+      ny: {defaultFlag: true, cost: 5.00, name: UPS, id: 58af08be-f0b2-4f2d-84a5-c0b5f7832453}
+      china: null
+      canada: {defaultFlag: false, cost: 10.00, name: UPS, id: aec84b6d-6b61-4b31-9095-5a5f1e4b8e40}
+  jobs:
+    settle:
+    - {id: 1000005597, name: Payment settlement}
+    export:
+    - {id: 1000005755, name: demo_export_RunOnce}
+  reasons:
+    cancel:
+    - {code: '1', type: '', reason: Order By Mistake, status: ACTIVE}
+    - {code: '2', type: '', reason: Ordered Too Many, status: ACTIVE}
+    - {code: '3', type: '', reason: Wrong Product, status: ACTIVE}
+    return:
+    - {code: '001', type: '', reason: Ordered by mistake, status: ACTIVE}
+    - {code: '002', type: '', reason: Ordered too many, status: ACTIVE}
+    - {code: '003', type: '', reason: Wrong product, status: ACTIVE}
+    mispick:
+    - {code: '001', type: BUSINESS, reason: 'Mispick: Duplicate', status: ACTIVE}
+    - {code: '002', type: null, reason: 'Mispick: Dislike', status: ACTIVE}
+  locations:
+    warehouse:
+    - fulfillmentLocationId: boston-1
+      name: Boston
+      address: {zip: '02109', country: US, city: Boston, state: MA, line2: '', line1: 53
+          State Street}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: california-1
+      name: California
+      address: {zip: '94107', country: US, city: San Francisco, state: CA, line2: '',
+        line1: 1258 Minnesota St}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: newjersey-1
+      name: 'New Jersey '
+      address: {zip: '08544', country: US, city: PRINCETON, state: NJ, line2: '',
+        line1: 110 Morrison Hall}
+      type: WAREHOUSE
+      active: true
+    store:
+    - fulfillmentLocationId: demo-store1
+      name: demo_store1
+      address: {zip: '90023', country: US, city: '', state: '', line2: '', line1: ''}
+      type: STORE
+      active: true
+    - fulfillmentLocationId: demo-store2
+      name: demo_store2
+      address: {zip: '90022', country: US, city: '', state: '', line2: '', line1: ''}
+      type: STORE
+      active: true
+  experience:
+  - {id: e531ace1-867f-449a-a173-242a0e23f6fb, name: Upscale Mobile Native Shopping
+      Experience}

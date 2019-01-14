@@ -1,0 +1,103 @@
+version: 1.0.3
+env: {name: stage, postfix: -stage}
+token: {customer: bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vY2Fhc3N0YWdlcWEuYXV0aGVudGljYXRpb24udXMxMC5oYW5hLm9uZGVtYW5kLmNvbS90b2tlbl9rZXlzIiwia2lkIjoia2V5LWlkLTEiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiJlODg3NmJlMWI2NTg0ZjNhYTk0NjcwYzMzM2YwNWU2NyIsImFjciI6eyJ2YWx1ZXMiOlsidXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFjOmNsYXNzZXM6UGFzc3dvcmQiXX0sImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJ6ZG4iOiJjYWFzc3RhZ2VxYSJ9LCJ4cy51c2VyLmF0dHJpYnV0ZXMiOnsiYWNjb3VudElkIjpbImNkZmY4ZDkwLWQ4NzctNDE2NS1iOTVjLTUyZTdiZWZkNDFkYiJdfSwiYW1yIjpbImV4dCJdLCJncmFudGVkX3Njb3BlcyI6WyJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfZ2Rwcl9kZWwiLCJvcGVuaWQiLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfaW50X3ZpZXciLCJjYWFzMi14c3VhYSF0NDQ2Lmh5YnJpcy5jYWFzMl9tb2JpbGVfdmlldyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9wYXltZW50X3J3Il0sImdpdmVuX25hbWUiOiJzdWNjZXNzbWljaGFlbHl1QHNpbXVsYXRvci5hbWF6b25zZXMuY29tIiwiZmFtaWx5X25hbWUiOiJzdWNjZXNzbWljaGFlbHl1QHNpbXVsYXRvci5hbWF6b25zZXMuY29tIiwic3ViIjoiY2I1MTBiMGYtOTFkMC00NWM4LThkOGQtZjZiZTE0MWI4MTUwIiwic2NvcGUiOlsiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2dkcHJfZGVsIiwib3BlbmlkIiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2ludF92aWV3IiwiY2FhczIteHN1YWEhdDQ0Ni5oeWJyaXMuY2FhczJfbW9iaWxlX3ZpZXciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfcGF5bWVudF9ydyJdLCJjbGllbnRfaWQiOiJzYi1jYWFzMi14c3VhYSF0NDQ2IiwiY2lkIjoic2ItY2FhczIteHN1YWEhdDQ0NiIsImF6cCI6InNiLWNhYXMyLXhzdWFhIXQ0NDYiLCJyZXZvY2FibGUiOnRydWUsImdyYW50X3R5cGUiOiJhdXRob3JpemF0aW9uX2NvZGUiLCJ1c2VyX2lkIjoiY2I1MTBiMGYtOTFkMC00NWM4LThkOGQtZjZiZTE0MWI4MTUwIiwib3JpZ2luIjoiY2Fhc2lkcCIsInVzZXJfbmFtZSI6ImNkZmY4ZDkwLWQ4NzctNDE2NS1iOTVjLTUyZTdiZWZkNDFkYiIsImVtYWlsIjoic3VjY2Vzc21pY2hhZWx5dUBzaW11bGF0b3IuYW1hem9uc2VzLmNvbSIsImF1dGhfdGltZSI6MTU0NTYzMTEyOSwicmV2X3NpZyI6ImZjNmRmNjg5IiwiaWF0IjoxNTQ2NTgyMjAzLCJleHAiOjE1NDY2MjU0MDMsImlzcyI6Imh0dHA6Ly9jYWFzc3RhZ2VxYS5sb2NhbGhvc3Q6ODA4MC91YWEvb2F1dGgvdG9rZW4iLCJ6aWQiOiJlYzIyOGFjOC02ZDBjLTQ0OTctYjU3OS0xNmZlZTEwNTE5YjkiLCJhdWQiOlsic2ItY2FhczIteHN1YWEhdDQ0NiIsImNhYXMyLXhzdWFhIXQ0NDYueSIsImNhYXMyLXhzdWFhIXQ0NDYuaHlicmlzIiwib3BlbmlkIl19.CDThJqDXljyWLMx5uSRj3X0dn0z_lFQUg58U-gr1Mx0Gwy0EWTqJrHgp51CV4hOybKvFF8M4gIFrKRcGaVAQ2CkdF9o8vNxZzR2p4QkMn5meDUE0bI4MqoonXpNG0_fAkx3H6oVMeg04iZUJ8JEPhrV3JqZi87YB1ake3AyFihhxK2Ez5K2gc_DfQeONkf3Fgo0u75o3TqXYSLg_2PeFyttOncRo4g_2Y74kHZsG4Atb0awrKp_bs5c7NHzqmXtnZvQTJCGH6EL4cxur1aV6CboE8ZI_f8oBGmy0bVRcYfK6gWA9tvB5Ag3kevnaAyH8SDoka86LNz21qEGQhV9M8wUNjURbfeB3f6MVvltJTP3pivrObm-z38lq1MO121I0wbhsfOIT-Jw7W9OKJ6GKdwikWO-4QQukNiqUBNivW4WTdVLMkFTp1ftDCr7B_eTPwCzQbM8UMlVfF9MElpsBDAI6rJgQYEmj3DeXVS6G2Fe3hnLzJs1Fda0gkuHgroWleYEMxfznkUKtA1p7KYeJbERj1tiZ51d7G6fVpXXplY2MCgHYVSBvS3LGYaBsyAzpmO5keyJN2G8qofDgVwBftF397iwYmm8oJQHcjWq4jt-u_eQfUsi2H4p0dhGOv1p9E-RHWYr4dpVI7XDKlegLhsQkGDTTeDRczozeRCvNxGQ,
+  merchant: bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vY2Fhc3N0YWdlcWEuYXV0aGVudGljYXRpb24udXMxMC5oYW5hLm9uZGVtYW5kLmNvbS90b2tlbl9rZXlzIiwia2lkIjoia2V5LWlkLTEiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiI0MTA3Njc2ZmJlZDg0NDc4OGFiOTJlNDkyYjUyZDA3ZCIsImFjciI6eyJ2YWx1ZXMiOlsidXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFjOmNsYXNzZXM6UGFzc3dvcmQiXX0sImV4dF9hdHRyIjp7ImVuaGFuY2VyIjoiWFNVQUEiLCJ6ZG4iOiJjYWFzc3RhZ2VxYSJ9LCJ4cy51c2VyLmF0dHJpYnV0ZXMiOnsiYWNjb3VudElkIjpbIjI5MzdhNGE3LTA5ZDEtNGNjOC04NDhjLWZkODJiNDU2NmU3OCJdfSwiYW1yIjpbImV4dCJdLCJncmFudGVkX3Njb3BlcyI6WyJvcGVuaWQiLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfYXBwX3J3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX3Byb2RfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfb3JkX3J3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyXzNyZF9zeXNfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfaW52X3J3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2ludF9tbmciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfdGF4X3J3IiwiY2FhczIteHN1YWEhdDQ0Ni5oeWJyaXMuY2FhczJfaWRwX3dvcmtiZW5jaF92aWV3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2VtYWlsX3J3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2NvbnRfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfaW50X3ZpZXciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfamJfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfdW1fcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfcGF5bWVudF9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9pbXBvcnRfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfbW5nIiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX3diX3J3Il0sImdpdmVuX25hbWUiOiJMaSIsImZhbWlseV9uYW1lIjoiSmlhbiIsInN1YiI6IjI4NzA5NjYxLWY5MzktNGYzZi05OWVkLWIwNzE0MWIzNjlmYSIsInNjb3BlIjpbIm9wZW5pZCIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9hcHBfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfcHJvZF9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9vcmRfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfM3JkX3N5c19ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9pbnZfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfaW50X21uZyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl90YXhfcnciLCJjYWFzMi14c3VhYSF0NDQ2Lmh5YnJpcy5jYWFzMl9pZHBfd29ya2JlbmNoX3ZpZXciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfZW1haWxfcnciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfY29udF9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9pbnRfdmlldyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9qYl9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl91bV9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9wYXltZW50X3J3IiwiY2FhczIteHN1YWEhdDQ0Ni55LmMyX2ltcG9ydF9ydyIsImNhYXMyLXhzdWFhIXQ0NDYueS5jMl9tbmciLCJjYWFzMi14c3VhYSF0NDQ2LnkuYzJfd2JfcnciXSwiY2xpZW50X2lkIjoic2ItY2FhczIteHN1YWEhdDQ0NiIsImNpZCI6InNiLWNhYXMyLXhzdWFhIXQ0NDYiLCJhenAiOiJzYi1jYWFzMi14c3VhYSF0NDQ2IiwicmV2b2NhYmxlIjp0cnVlLCJncmFudF90eXBlIjoiYXV0aG9yaXphdGlvbl9jb2RlIiwidXNlcl9pZCI6IjI4NzA5NjYxLWY5MzktNGYzZi05OWVkLWIwNzE0MWIzNjlmYSIsIm9yaWdpbiI6ImNhYXNpZHAiLCJ1c2VyX25hbWUiOiIyOTM3YTRhNy0wOWQxLTRjYzgtODQ4Yy1mZDgyYjQ1NjZlNzgiLCJlbWFpbCI6ImxpLmppYW5Ac2FwLmNvbSIsImF1dGhfdGltZSI6MTU0NTYzMTEzNCwicmV2X3NpZyI6IjljMDQ4YzY2IiwiaWF0IjoxNTQ2NTgyMjA1LCJleHAiOjE1NDY2MjU0MDUsImlzcyI6Imh0dHA6Ly9jYWFzc3RhZ2VxYS5sb2NhbGhvc3Q6ODA4MC91YWEvb2F1dGgvdG9rZW4iLCJ6aWQiOiJlYzIyOGFjOC02ZDBjLTQ0OTctYjU3OS0xNmZlZTEwNTE5YjkiLCJhdWQiOlsic2ItY2FhczIteHN1YWEhdDQ0NiIsImNhYXMyLXhzdWFhIXQ0NDYueSIsImNhYXMyLXhzdWFhIXQ0NDYuaHlicmlzIiwib3BlbmlkIl19.HbdmWhn0jlriYWbi0Egldj6yEDFJe3g18QlC8zgGC6AqZa0TUu6RFpVe3nvSlTgfio2UODMNOkjMjvMiR4XZQoFTGnZuG3ppeuod8hZqOfyTPx8Yew6J7tKm4nztrdMOYYBizH4ZMRJklmonrtTxawXYQaRSTUtFASE5Imly1js4V4NozVkh4JZzife7D5QbEdVjtA9I_ZlyDW0lzr_D1cJyy3ldpmu0QWapChd2A404oXTYXDJzUNWGzAytc4GQl9nFxGh85pYLrML06NGfuyYaBMeM-irSj9vk_1EFlb2pA2MFoh4b52QVYocvYwNVt2AzMoapGFcl8aYlr9rv1R5PRQjNlPhtr7toftHSXDBx7wUU1Eiudgf9JjYcZHKByMEXoW-rsHlUZLOA8JF_xTCEVa1Nraf0rVnBjVFd-KfOKKV3dJ5CIP7eTUPD3KDMZ2kJUrOZvsuswYYU4cQDqJeOS5Cldtn4EzPpzm5MjbNVfYIGIlL0jjGDIb5p3zlW50-EltSG6aMPnvqiF905C_6ugFofAnw0VXZOkupb-wSUb_CxfVx9Uunu5VJ_OhlaWDX6RcCo2PK832_LHBr6vDekD4wDkZkTFuwv6gzZ7uTBz7e7UHg2HkYMHojeUNXFrobiKFFWqS9m6Mf-FF2-L4k-nmtSac_HwbOR-QmDvvk}
+register:
+  customer: {email: null, password: null}
+  merchant: {email: null, password: null}
+session:
+- {id: '1234567890'}
+- {id: 1234567890B}
+audit_log: {client_id: sb-auditlog-api-approuter!b656|auditlog-api!b662, client_secret: h0NUWqFr1zaIzglevZycGTNheIo=,
+  space_id: 1fd52659-67cc-43bb-8193-7934f0f61e02, broker_id: 551aa941-e9e2-4123-8405-f78f5258d9a5,
+  export_id: e6239ac4-e48c-4690-8f30-874952ddeadd, shipping_id: 744d9187-c68d-40ec-905f-503ad71de241}
+resource:
+  candidate:
+    job_names: [my-export, payment settlement]
+    reasons:
+      cancel: ['001', '002', '010']
+      return: ['010', '014', '10086']
+      mispick: ['001', '002']
+    locations: [git-ca, git-cn, git-dc, git-ny, loc-1, loc-2, loc-3]
+    experience_names: [Bamboo-feature-test]
+  products:
+    in_stock:
+    - {id: '300399821'}
+    - {id: '300399822'}
+    - {id: '300399823'}
+    - {id: '300399824'}
+    - {id: '5809683'}
+    out_stock:
+    - {id: 5862458002-IT42}
+    - {id: 5862458002-IT44}
+    - {id: 5862458002-IT46}
+    - {id: 5862458002-IT48}
+  shipping:
+    methods:
+      ca: {defaultFlag: true, cost: 10.00, name: Dana Method, id: 58c52d60-c56d-4aee-a18d-eb16b3a28407}
+      or: {defaultFlag: true, cost: 10.00, name: Dana Method, id: 58c52d60-c56d-4aee-a18d-eb16b3a28407}
+      ny: {defaultFlag: true, cost: 10.00, name: Dana Method, id: 58c52d60-c56d-4aee-a18d-eb16b3a28407}
+      china: null
+      canada: null
+  jobs:
+    settle:
+    - {id: 1000005375, name: payment settlement}
+    export:
+    - {id: 1000000634, name: my-export}
+  reasons:
+    cancel:
+    - {code: '001', type: '', reason: x1, status: INACTIVE}
+    - {code: '002', type: '', reason: '2', status: INACTIVE}
+    - {code: '010', type: '', reason: a, status: INACTIVE}
+    return:
+    - {code: '010', type: type, reason: 'Return: Duplicate', status: ACTIVE}
+    - {code: '014', type: new type, reason: 'Return: Duplicate', status: ACTIVE}
+    - {code: '10086', type: type, reason: 'Return: Duplicate', status: ACTIVE}
+    mispick:
+    - {code: '001', type: null, reason: '001', status: ACTIVE}
+    - {code: '002', type: BUSINESS, reason: '002', status: ACTIVE}
+  locations:
+    warehouse:
+    - fulfillmentLocationId: git-ca
+      name: wh-ca
+      address: {zip: '91748', country: US, city: City Of Industry, state: CA, line2: '#17520',
+        line1: Castleton St.}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-cn
+      name: wh-cn
+      address: {zip: '610000', country: CN, city: Chengdu, state: SC, line2: Tianfu
+          Software Park, line1: 1823 Tianfu Avenue}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-dc
+      name: wh-dc
+      address: {zip: '20500', country: US, city: Washington, state: DC, line2: The
+          White House, line1: 1600 Pennsylvania Avenue NW}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-ny
+      name: wh-ny
+      address: {zip: '10027', country: US, city: New York, state: NY, line2: Columbia
+          University., line1: 2960 Broadway}
+      type: WAREHOUSE
+      active: true
+    store:
+    - fulfillmentLocationId: loc-1
+      name: loc-1
+      address: {zip: '90033', country: US, city: NY, state: NY, line2: '', line1: new
+          york}
+      type: STORE
+      active: true
+    - fulfillmentLocationId: loc-2
+      name: loc-2
+      address: {zip: '90032', country: MX, city: '', state: '', line2: '2', line1: '1'}
+      type: STORE
+      active: true
+    - fulfillmentLocationId: loc-3
+      name: loc-3
+      address: {zip: '90036', country: FI, city: '', state: '', line2: '', line1: '1'}
+      type: STORE
+      active: true
+  experience:
+  - {id: e2540f05-240b-43be-b528-46acd6992e5e, name: Bamboo-feature-test}

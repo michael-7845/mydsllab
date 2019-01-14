@@ -1,0 +1,8 @@
+version: 1.0.1
+#tenant: 'caastestqa'
+#tenant: caasstageqa
+tenant: qa-prod
+#tenant: caas-prod-qa1
+#tenant: automation-test
+
+url: {protocol: https, port: 443, cf_domain: cfapps.us10.hana.ondemand.com}

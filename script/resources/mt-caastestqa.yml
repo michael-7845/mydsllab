@@ -1,0 +1,105 @@
+version: 1.0.1
+env: {name: test, postfix: -test}
+token: {merchant: null, customer: null}
+register:
+  customer: {email: null, password: null}
+  merchant: {email: null, password: null}
+session:
+- {id: '1234567890'}
+- {id: 1234567890B}
+audit_log: {client_id: sb-auditlog-api-approuter!b656|auditlog-api!b662, client_secret: h0NUWqFr1zaIzglevZycGTNheIo=,
+  space_id: 1fd52659-67cc-43bb-8193-7934f0f61e02, broker_id: 551aa941-e9e2-4123-8405-f78f5258d9a5,
+  export_id: e6239ac4-e48c-4690-8f30-874952ddeadd, shipping_id: 744d9187-c68d-40ec-905f-503ad71de241}
+resource:
+  candidate:
+    locations: [git-ca, git-ny, git-dc, git-cn, california, ma-store-1, store-001]
+    reasons:
+      cancel: ['001', '002']
+      return: ['001', '002']
+      mispick: ['001', '002']
+    experience_names: [My Test Experience]
+    job_names: [elithan-test-906, settlecharge]
+  products:
+    in_stock:
+    - {id: '300399821'}
+    - {id: '300399822'}
+    - {id: '300399823'}
+    - {id: '300399824'}
+    - {id: '300618505'}
+    - {id: '300618506'}
+    - {id: '300618507'}
+    - {id: '300742608'}
+    out_stock:
+    - {id: '300452191'}
+    - {id: '300398794'}
+    - {id: '300442964'}
+    - {id: '300442966'}
+  experience:
+  - {id: b7be678f-15b2-48e3-8dff-a94fd5c3cb7f, name: My Test Experience}
+  locations:
+    warehouse:
+    - fulfillmentLocationId: git-ca
+      name: wh-ca
+      address: {zip: '91748', country: US, city: City Of Industry, state: CA, line2: '#17520',
+        line1: Castleton St.}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-cn
+      name: wh-cn1
+      address: {zip: '610000', country: CN, city: Chengdu, state: Hebei, line2: Tianfu
+          Software Park, line1: 1823 Tianfu Avenue}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-dc
+      name: wh-dc
+      address: {zip: '20500', country: US, city: Washington, state: DC, line2: The
+          White House, line1: 1600 Pennsylvania Avenue NW}
+      type: WAREHOUSE
+      active: true
+    - fulfillmentLocationId: git-ny
+      name: wh-ny
+      address: {zip: '10027', country: US, city: New York, state: NY, line2: Columbia
+          University., line1: 2960 Broadway}
+      type: WAREHOUSE
+      active: true
+    store:
+    - fulfillmentLocationId: california
+      name: california
+      address: {zip: '91748', country: US, city: City Of Industry, state: CA, line2: '#17520',
+        line1: Castleton St.}
+      type: STORE
+      active: true
+    - fulfillmentLocationId: ma-store-1
+      name: Gould's Clothing(MA store 1)
+      address: {zip: '01720', country: US, city: Acton, state: MA, line1: Baybank
+          Plaza}
+      type: STORE
+      active: true
+    - fulfillmentLocationId: store-001
+      name: Store 001
+      address: {zip: '91710', country: US, city: Chino, state: CA, line2: Suite 101,
+        line1: 5125 Schaefer Avenue}
+      type: STORE
+      active: true
+  reasons:
+    cancel:
+    - {code: '001', type: BUSINESS, reason: 'Cancel: Duplicated', status: ACTIVE}
+    - {code: '002', type: BUSINESS, reason: 'Cancel: Dislike', status: ACTIVE}
+    return:
+    - {code: '001', type: '', reason: 'Return: Duplicate', status: ACTIVE}
+    - {code: '002', type: BUSINESS, reason: 'Return: Dislike', status: ACTIVE}
+    mispick:
+    - {code: '001', type: STORE, reason: 'Mispick: out of stock', status: ACTIVE}
+    - {code: '002', type: BUSINESS, reason: 'Mispick: damaged', status: ACTIVE}
+  jobs:
+    export:
+    - {id: 1000005017, name: elithan-test-906}
+    settle:
+    - {id: 1000001342, name: settlecharge}
+  shipping:
+    methods:
+      ca: {defaultFlag: true, cost: 10.00, name: test, id: 0dd3d2bb-b8fd-4f24-8ba2-a04ff51e5fda}
+      or: null
+      ny: null
+      china: null
+      canada: null
