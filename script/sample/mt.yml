@@ -1,0 +1,3 @@
+version: 1.0.1
+tenant: caastestqa
+url: {protocol: https, port: 443, cf_domain: cfapps.us10.hana.ondemand.com}

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ivysettings>
+  <settings defaultResolver="downloadGrapes"/>
+  <!--Authentication required for publishing (deployment). 'Artifactory Realm' is the realm used by Artifactory so don't change it.-->
+  <credentials passwd="your passwd" username="your username" realm="Artifactory Realm" host="repository.hybris.com"/>
+  <resolvers>
+    <chain name="downloadGrapes">
+       <ibiblio name="hybris" root="https://repository.hybris.com:443/hybris-repository" m2compatible="true"/>
+    </chain>
+   </resolvers>
+</ivysettings>
