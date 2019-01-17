@@ -10,6 +10,11 @@ MyDSL.make('step1> retrieve environment information, to generate mt_tenant.yml.'
     refresh_env()
 }
 
+// candidate suggestion, or may fail MyDSL running due to no test data:
+// >= 1 export job name, >=1 settle job name
+// >= 2 cancel reasons, >= 2 return reasons, >= 2 mispick reasons
+// >= 3 location id
+// >= 1 experience id
 MyDSL.make('step2> edit mt_tenant.yml: select resource.candidate for you, keeping what you want, removing what you don\'t want.', false) {}
 
 MyDSL.make('step3> copy mt_tenant.yml content into mt_<yourTenant>.yml.', false) {}
@@ -22,7 +27,7 @@ MyDSL.make('step5> copy new mt_tenant content to mt_<yourTenant>.yml. now, envir
 
 MyDSL.make('step6> if you want, you can check or list environment now.', false) {
     println yaml.all.resource.candidate
-    env.check_env_by_yaml()
+    check_env_by_yaml()
 }
 
 MyDSL.make('step7> you can run your MyDSL script now. try some script in script/sample.', false) {}
