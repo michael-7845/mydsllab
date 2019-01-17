@@ -12,7 +12,7 @@ MyDSL.make('make order step by step ',true) {
 //    id = create_order(_PRODUCT_FIRST_1, DRAFT)
     id = '0169648089'
     println "order id: ${id}"
-    _order = order(id)
+    _order = ORDER(id)
     println _order.total
 
 //    //2. calculate cost
@@ -37,9 +37,7 @@ MyDSL.make('make order step by step ',true) {
     //5. run export job
 //    println default_once_job_id
 //    assert run_export_job()
-
     _order.refresh(true) {
         println it.status
     }
-
 }

@@ -8,12 +8,14 @@ package mooncake.smoke.mt.dsl.sample
 import mooncake.smoke.mt.dsl.MyDSL
 import static mooncake.smoke.constants.OrderConstants.Status.*
 
-MyDSL.make('order tool to access order field',true) {
-    def id = null
+MyDSL.make('order tool to access order field',false) {
 //    id = create_order(_PRODUCT_FIRST_1, DRAFT)
     id = '1358963779'
     println "order id: ${id}"
-    def order = order(id)
+
+    // order tool: ORDER(id, MERCHANT) or ORDER(id, USER); ORDER() = O() = order() = Order()
+    def order = ORDER(id)
+
     println order.status
     println order.total
     println order.orderlines().size()
@@ -23,19 +25,20 @@ MyDSL.make('order tool to access order field',true) {
     println order.orderline(line_number: 1).itemCode
     println order.response.path('.')
     println order.r.path('.')
-    _order.refresh()
-    println _order.status
-    _order.refresh {
+    order.refresh()
+    println order.status
+    order.refresh {
         println it.status
     }
 }
 
-MyDSL.make('response tool to access response',false) {
-    def id = null
+MyDSL.make('response tool to access response',true) {
 //    id = create_order(_PRODUCT_FIRST_1, DRAFT)
     id = '1358963779'
     println "order id: ${id}"
-    def r = response(get_order_by_id(id))
+
+    // response tool: RESPONSE() = R() = response() = Response()
+    def r = RESPONSE(get_order_by_id(id))
     println 'r.asString() : '+r.asString()
     println 'r.statusCode() : '+r.statusCode()
     println 'r.body() : '+r.body()
